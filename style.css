@@ -16,6 +16,7 @@ body {
 }
 .upperbar a {
   color: antiquewhite;
+  padding: 10px;
   text-decoration: none; /* This removed the horizontal lines from under the words since we used hyperlinks */
 }
 .upperbar a:not(:last-child) {
