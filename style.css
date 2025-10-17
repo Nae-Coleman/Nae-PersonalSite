@@ -42,6 +42,8 @@ body {
 }
 #main .selfie {
   grid-area: 1 / 2 / span 3 / span 1;
+  align-self: center;
+  padding: 10px;
 }
 #main .aboutme {
   font-size: 20pt;
