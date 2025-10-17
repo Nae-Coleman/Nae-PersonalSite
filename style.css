@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: bisque;
+}
+/*Top Bar*/
+.upperbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: antiquewhite;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.upperbar a {
+  color: antiquewhite;
+  text-decoration: none; /* This removed the horizontal lines from under the words since we used hyperlinks */
+}
+.upperbar a:not(:last-child) {
+  /*This picked every element in the class that is not the last child to make vertical lines with */
+  border-right: 1px solid antiquewhite; /* This made a border to the right of the elements  */
+  padding-right: 15px; /*This made space to the right of the vertical line */
+}
+.upperbar a:hover {
+  color: rgb(57, 233, 51);
+  transition: 0.5s;
+}
+img {
+  width: 400px;
+  border-radius: 40px;
+  /* grid-area: 1 / 1 / span 2 / span 1; */
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#homepage .aboutme {
+  /* grid-area: 1 / 1 / span 2 / span 1; */
+}
