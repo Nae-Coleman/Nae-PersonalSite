@@ -27,16 +27,19 @@ body {
   color: rgb(57, 233, 51);
   transition: 0.5s;
 }
-img {
-  width: 400px;
+.home {
   border-radius: 40px;
-  /* grid-area: 1 / 1 / span 2 / span 1; */
-}
-main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
-#homepage .aboutme {
-  /* grid-area: 1 / 1 / span 2 / span 1; */
+.main {
+  display: grid;
+  /* padding: 15px 40px; */
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  /* border: 2px solid black;
+  margin: 20px 100px; */
+}
+.aboutme p {
+  display: grid;
+  grid-area: 2 / 1 / span 1 / span 3;
 }
