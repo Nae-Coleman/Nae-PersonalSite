@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: bisque;
+  display: grid;
 }
 /*Top Bar*/
 .upperbar {
@@ -27,19 +28,18 @@ body {
   color: rgb(57, 233, 51);
   transition: 0.5s;
 }
-.home {
-  border-radius: 40px;
+#main {
   display: grid;
-}
-.main {
-  display: grid;
-  /* padding: 15px 40px; */
-  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  /* border: 2px solid black;
-  margin: 20px 100px; */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-.aboutme p {
-  display: grid;
-  grid-area: 2 / 1 / span 1 / span 3;
+#main .heading {
+  grid-area: 1 / 1 / span 1 / span 1;
+  font-size: 30pt;
+}
+#main .selfie {
+  grid-area: 1 / 2 / span 4 / span 1;
+}
+#main .aboutme {
+  font-size: 14pt;
 }
