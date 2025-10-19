@@ -12,7 +12,7 @@
 }
 .upperbar a {
   color: antiquewhite;
-  padding: 10px;
+  padding: 10pt;
   text-decoration: none; /* This removed the horizontal lines from under the words since we used hyperlinks */
 }
 .upperbar a:not(:last-child) {
@@ -26,7 +26,7 @@
 }
 footer {
   text-align: center;
-  padding: 40pt;
+  padding: 10pt;
   background-color: blueviolet;
   height: 100%;
   width: 100%;
@@ -38,11 +38,84 @@ footer {
 }
 body,
 html {
-  margin: 0;
-  height: 100%;
+  margin: auto;
+  height: auto;
   background-color: bisque;
 }
-body {
+.heading {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
   display: flex;
-  flex-direction: row;
+  padding-left: 5rem;
+}
+.intro {
+  display: flex;
+  flex-grow: 4;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
+  padding-left: 5rem;
+}
+#main {
+  padding-left: 20rem;
+  padding-bottom: 5rem;
+  padding-right: 20rem;
+}
+.heading1 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25pt;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.techintro {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 18pt;
+  padding-right: 1rem;
+}
+.container2 {
+  display: flex;
+  justify-content: flex-start;
+  /* padding-top: 20%; */
+}
+.heading2 {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25pt;
+  padding-left: 2rem;
+}
+.headerintro {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 18pt;
+  padding-right: 2rem;
+  padding-left: 3rem;
+}
+.aboutme {
+  border: 3pt double blueviolet;
+  border-radius: 5rem;
+  margin: 5rem;
+}
+.license {
+  border-top-right-radius: 5rem;
+}
+.aboutme2 {
+  border: 3pt double blueviolet;
+  border-radius: 5rem;
+  margin: 5rem;
+}
+.hhalicense {
+  border-top-right-radius: 5rem;
 }
