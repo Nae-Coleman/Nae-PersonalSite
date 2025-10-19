@@ -20,6 +20,9 @@ body {
   font-style: normal;
   font-size: 40px;
 }
+.leftside {
+  padding-left: 5px;
+}
 .upperbar a {
   color: antiquewhite;
   padding: 10px;
@@ -36,22 +39,27 @@ body {
 }
 .aboutme {
   display: flex;
-  border: 2px solid black;
-  margin: 4rem;
+  border: 3px double blueviolet;
+  margin-bottom: 5rem;
+  border-radius: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
-#main .heading {
-  font-size: 30pt;
+.heading {
+  font-size: 25pt;
   font-family: "Shadows Into Light Two", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+  padding-left: 2rem;
 }
 #main .selfie {
-  height: auto;
   min-width: 28%;
   max-height: calc(100vh - 24rem);
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
 }
 #main .intro {
-  font-size: 30pt;
+  font-size: 22pt;
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 400;
   font-style: normal;
@@ -61,12 +69,12 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 18pt;
+  font-size: 14pt;
 }
 
 footer {
   text-align: center;
-  padding: 40pt;
+  padding: 10pt;
   background-color: blueviolet;
   height: 100%;
   width: 100%;
@@ -74,7 +82,7 @@ footer {
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 35pt;
 }
 #main .container {
   display: flex;

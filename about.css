@@ -10,6 +10,9 @@
   font-style: normal;
   font-size: 40px;
 }
+.leftside {
+  padding-left: 5px;
+}
 .upperbar a {
   color: antiquewhite;
   padding: 10px;
@@ -26,7 +29,7 @@
 }
 footer {
   text-align: center;
-  padding: 40pt;
+  padding: 10pt;
   background-color: blueviolet;
   height: 100%;
   width: 100%;
@@ -34,7 +37,7 @@ footer {
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 35pt;
 }
 .mexico {
   width: 300px;
@@ -56,16 +59,77 @@ body {
   display: flex;
   flex-direction: column;
 }
-#main .container {
+.header {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40pt;
+  padding-left: 10px;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  font-size: 20pt;
+  justify-content: center;
+}
+.intro {
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: 20pt;
+  padding-left: 10px;
 }
-#main {
-  padding-left: 50rem;
-  padding-right: 50rem;
-  padding-bottom: 5rem;
+
+.bahamas {
+  width: 400px;
+  border-bottom-right-radius: 3rem;
+}
+.minicoop {
+  border-bottom-right-radius: 3rem;
+}
+
+.container-wrapper {
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-end;
+}
+.container {
+  display: flex;
+  border: 3pt double blueviolet;
+  border-radius: 3rem;
+  padding-left: 20px;
+  margin-left: 10rem;
+  margin-bottom: 1.8rem;
+}
+.container2 {
+  display: flex;
+  border: 3pt double blueviolet;
+  margin-left: 5rem;
+  margin-right: 10rem;
+  padding-left: 20px;
+  margin-bottom: 8rem;
+  border-radius: 3rem;
+}
+.vacation {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25pt;
+}
+.vacayintro {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+.builder {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25pt;
+}
+.builderintro {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
 }
