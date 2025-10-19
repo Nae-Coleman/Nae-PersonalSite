@@ -1,0 +1,87 @@
+/*Top Bar*/
+.upperbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: antiquewhite;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.leftside {
+  padding-left: 5px;
+}
+.upperbar a {
+  color: antiquewhite;
+  padding: 10pt;
+  text-decoration: none; /* This removed the horizontal lines from under the words since we used hyperlinks */
+}
+.upperbar a:not(:last-child) {
+  /*This picked every element in the class that is not the last child to make vertical lines with */
+  border-right: 1px solid antiquewhite; /* This made a border to the right of the elements  */
+  padding-right: 15px; /*This made space to the right of the vertical line */
+}
+.upperbar a:hover {
+  color: rgb(57, 233, 51);
+  transition: 0.5s;
+}
+footer {
+  text-align: center;
+  padding: 10pt;
+  background-color: blueviolet;
+  height: 100%;
+  width: 100%;
+  color: antiquewhite;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35pt;
+}
+body,
+html {
+  margin: auto;
+  height: auto;
+
+  background-color: bisque;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  display: flex;
+  padding-left: 5rem;
+  justify-content: center;
+}
+.intro {
+  display: flex;
+  flex-grow: 4;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25pt;
+  padding-left: 1rem;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20pt;
+  margin-bottom: 10rem;
+}
+button {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20pt;
+  background-color: rgb(43, 189, 226);
+}
